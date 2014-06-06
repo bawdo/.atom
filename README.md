@@ -1,5 +1,5 @@
 # Atom Configuration
 ----
 
-# Description
+## Description
 My Atom editor dotfiles.
