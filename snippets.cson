@@ -14,9 +14,28 @@
 #     'body': 'console.log $1'
 #
 
-   "README":
-      "prefix": "readme"
-      "body": """
-      # ${1:README}
-      ---
-      $2
+
+".text.plain":
+  "README":
+    "prefix": "readme"
+    "body": """
+    # ${1:README}
+    ---
+    $2
+
+    ## Submitting Changes
+    * $3
+
+    """
+
+".text":
+  "CONTRIBUTING":
+    "prefix": "contributing"
+    "body": """
+    # Contributing
+
+    ## First Steps
+
+    ## Requirements
+
+    """
